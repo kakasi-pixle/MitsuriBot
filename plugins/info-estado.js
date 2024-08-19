@@ -63,7 +63,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://www.instagram.com/ineffable.mvrco/` },
+    document: { url: `https://www.instagram.com/mitsuri_bot/` },
     mimetype: `application/${document}`,
     fileName: `Documento`,
     fileLength: 99999999999999,
@@ -72,13 +72,13 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://www.instagram.com/ineffable.mvrco/",
+        mediaUrl: "https://www.instagram.com/mitsuri_bot/",
         mediaType: 2,
         previewType: "pdf",
         title: "KillzN",
         body: tradutor.texto2,
         thumbnail: imagen1,
-        sourceUrl: "https://www.instagram.com/ineffable.mvrco/",
+        sourceUrl: "https://www.instagram.com/mitsuri_bot/",
       },
     },
     caption: info,
