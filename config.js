@@ -11,17 +11,17 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
+  ['201550680822', 'KILLZN', true],
+  ['56988', 'KILLZN', true],
+  ['53328', 'KILLZN', true],
+  ['5628', 'KILLZN', true],
+  ['563328', 'KILLZN', true],
+  ['073328', 'KILLZN', true],
+  ['573328', 'KILLZN', false],
+  ['53328', 'KILLZN', true],
+  ['3328', 'KILLZN', true],
   ['56983073328', 'KILLZN', true],
-  ['56983073328', 'KILLZN', true],
-  ['56983073328', 'KILLZN', true],
-  ['56983073328', 'KILLZN', true],
-  ['56983073328', 'KILLZN', true],
-  ['56983073328', 'KILLZN', true],
-  ['56983073328', 'KILLZN', false],
-  ['56983073328', 'KILLZN', true],
-  ['56983073328', 'KILLZN', true],
-  ['56983073328', 'KILLZN', true],
-  ['56983073328', 'KILLZN', true], 
+  ['73328', 'KILLZN', true], 
   ['56983073328', 'KILLZN', true],
   ['56983073328', 'KILLZN', true], 
   ['56983073328'],
@@ -50,11 +50,11 @@ global.suittag = ['56983073328'];
 global.prems = ['56983073328'];
 
 global.packname = 'Sticker';
-global.author = 'KillzN';
-global.wm = 'KillzN';
-global.titulowm = 'KillzN';
-global.titulowm2 = `KillzN`
-global.igfg = 'KillzN';
+global.author = 'yhya';
+global.wm = 'yhya';
+global.titulowm = 'yhya';
+global.titulowm2 = `yhya`
+global.igfg = 'yhya';
 global.wait = '*_[ ⏳ ] Cargando..._*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -74,15 +74,15 @@ global.mods = [];
 global.d = new Date(new Date + 3600000);
 global.locale = 'es';
 global.dia = d.toLocaleDateString(locale, {weekday: 'long'});
-global.fecha = d.toLocaleDateString('es', {day: 'numeric', month: 'numeric', year: 'numeric'});
-global.mes = d.toLocaleDateString('es', {month: 'long'});
-global.año = d.toLocaleDateString('es', {year: 'numeric'});
-global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
+global.fecha = d.toLocaleDateString('ar', {day: 'numeric', month: 'numeric', year: 'numeric'});
+global.mes = d.toLocaleDateString('ar', {month: 'long'});
+global.año = d.toLocaleDateString('ar', {year: 'numeric'});
+global.tiempo = d.toLocaleString('ar-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
 global.wm2 = `${dia} ${fecha}\nKillzN`;
 global.gt = 'KillzN';
 global.mysticbot = 'KillzN';
-global.channel = 'https://chat.whatsapp.com/FFB0fgdK3IP4ZEmZ8jF1CC';
+global.channel = 'https://whatsapp.com/channel/0029VanZjKLKGGGQNpGyhs0w';
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.waitt = '*_[ ⏳ ] Cargando..._*';
